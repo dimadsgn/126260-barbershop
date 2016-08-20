@@ -1,3 +1,5 @@
+/*Подключение шрифтов*/
+
 body {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 14px;
@@ -20,4 +22,287 @@ h2 {
   font-weight: 700; 	 
   line-height: 42px
   color: #000000;
+}
+
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Построение сеток*/
+
+body {
+  background-size: 1122px auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  background-color: red; 
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background-color: blue;
+  margin-bottom: 60px;
+}
+
+.mini-logo {
+  background-color: yellow;
+  float: left;
+  width: 111px;
+  height: 24px;
+  padding-top: 23px;
+  margin-right: 40px;        
+}
+
+.main-navigation {
+  background-color: yellow;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 780px;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.main-navigation li {
+  float: left;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.user-block {
+  background-color: yellow;
+  float: right;
+  width: 140px;
+  padding: 0px; 
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.user-block a {
+  padding-top: 29px; 
+}
+
+
+.main-title {
+   background-color: yellow;
+   float: left;
+   width: 940px 
+}
+
+.breadcrumbs {
+  background-color: yellow;
+  float: left;
+  padding: 0px;
+  width: 940px;
+  margin-bottom: 60px;
+}
+
+.breadcrumbs li {
+  float: left;
+  list-style: none;
+  padding: 0px;
+  margin-right: 40px;
+}
+
+.catalog-filters {
+  background-color: blue;
+  float: left;
+  width: 170px;
+}
+
+.catalog-filters-checkbox {
+  background-color: yellow;
+  float: left;
+  height: 257px;
+  margin-bottom: 55px;
+}
+
+.catalog-filters-radio {
+  background-color: yellow;
+  float: left;
+  height: 257px;
+  margin-bottom: 55px;
+}
+
+.catalog-filter label{
+  display: block  
+}
+
+.catalog-content-right {
+ background-color: blue; 
+ float: right;
+ width: 700px;
+ margin-bottom: 49px;
+}
+
+.catalog-item {
+  background-color: yellow;
+  display: inline-block;
+  width: 33.3333%;
+  vertical-align: top;      
+}
+
+.catalog-pagination {
+  background-color: yellow;
+  height: 43px;
+  margin-top: 45px;
+
+}
+
+
+
+.item-content-left {
+  background-color: blue;
+  float: left;
+  width: 460px;
+  height: 668px;
+}
+ 
+.item-img-big {
+  background-color: yellow;
+  float: left;
+  height: 498px;
+  margin-bottom: 21px;
+}
+
+.img-gallery { 
+  float: left;
+  margin-right: 20px; 
+}
+
+.img-gallery:last-child {
+  margin-right: 0;
+}
+
+.item-content-right {
+  background-color: blue;
+  float:right;
+  width: 390px;
+  padding-right: 10px;
+}
+
+.item-info {
+  background-color: yellow;
+  margin-bottom: 43px;
+}
+
+.item-info .art {
+  float: right;
+}
+
+.item-buy {
+  background-color: yellow;
+  float: left;
+  width: 187px;
+  height: 43px;
+  margin-bottom: 68px;   
+}
+
+.item-kit {
+  background-color: yellow;
+  float: left;
+
+}
+
+
+
+.index-logo {
+  background-color: yellow;
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  background-color: blue;
+  margin-bottom: 80px;
+}
+
+.features-item {
+  background-color: yellow;
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  background-color: blue;
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+
+.index-content-left {
+  background-color: yellow;
+  float: left;
+  width: 380px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.index-content-right {
+  background-color: yellow;
+  float: right;
+  width: 300px;
+
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+
+.main-footer {
+  background-color: blue;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-top: 65px;
+}
+
+.footer-contacts {
+  background-color: yellow;
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-social {
+  background-color: yellow;
+  float: left;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+.footer-copyright {
+  background-color: yellow;
+  float: right;
+  width: 180px;
+
+  /* Только для оформления сетки */
+  min-height: 90px;
 }
